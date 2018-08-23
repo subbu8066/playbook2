@@ -3,7 +3,7 @@ This file is from master server!
 IS that every thing is up to date?
 
 ---
-- hosts: 
-  remote_user:
-  become:
+- hosts: localhost
+  remote_user: test
+  become: yes
 
