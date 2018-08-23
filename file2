@@ -1,1 +1,5 @@
 This file is from master server!
+---
+- hosts: 
+  remote_user:
+  become:
